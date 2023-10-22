@@ -1,0 +1,16 @@
+db.createCollection("experiments")
+use temperature-observability
+show dbs
+db.createUser( { user: "root", pwd: "password", roles: [ { role: "readWrite", db: "temperature-observability" }] } )
+use admin
+use temperature-observability
+use admin
+show dbs
+mongosh -u root -p experiment --authenticationDatabase temperature-observability
+db.getUsers()
+db.createCollection('experiments')
+use temperature-observabilityperature-observabilityon('experiments')
+use temperature-observabilityture-observabilityperature-observabilityon('experiments')
+use temperature-observabilityon('experiments')
+use temperature-observabilityon('experiments')
+use temperature-observability
